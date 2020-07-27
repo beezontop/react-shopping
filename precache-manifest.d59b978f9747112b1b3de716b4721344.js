@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aaf10d38d38694dc306d71d2d4771011",
+    "revision": "891fb5b28d947dee81d0bf49fd2aa58a",
     "url": "/beezontop/react-shopping/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beezontop/react-shopping/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6820b9c93dde479dbfa9",
-    "url": "/beezontop/react-shopping/static/css/main.c3bc0c09.chunk.css"
+    "revision": "29523e488a72c2b4c082",
+    "url": "/beezontop/react-shopping/static/css/main.1bb7b9c3.chunk.css"
   },
   {
     "revision": "0f63032fa8785f5dad36",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6820b9c93dde479dbfa9",
+    "revision": "29523e488a72c2b4c082",
     "url": "/beezontop/react-shopping/static/js/main.89d9a7c6.chunk.js"
   },
   {

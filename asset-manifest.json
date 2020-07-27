@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beezontop/react-shopping/static/css/main.c3bc0c09.chunk.css",
+    "main.css": "/beezontop/react-shopping/static/css/main.1bb7b9c3.chunk.css",
     "main.js": "/beezontop/react-shopping/static/js/main.89d9a7c6.chunk.js",
     "main.js.map": "/beezontop/react-shopping/static/js/main.89d9a7c6.chunk.js.map",
     "runtime-main.js": "/beezontop/react-shopping/static/js/runtime-main.305e49d2.js",
@@ -9,17 +9,17 @@
     "static/js/2.83bc9c7a.chunk.js": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js",
     "static/js/2.83bc9c7a.chunk.js.map": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js.map",
     "index.html": "/beezontop/react-shopping/index.html",
-    "precache-manifest.aebb19a0c4b1240746518e0af0c0baa6.js": "/beezontop/react-shopping/precache-manifest.aebb19a0c4b1240746518e0af0c0baa6.js",
+    "precache-manifest.d59b978f9747112b1b3de716b4721344.js": "/beezontop/react-shopping/precache-manifest.d59b978f9747112b1b3de716b4721344.js",
     "service-worker.js": "/beezontop/react-shopping/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/beezontop/react-shopping/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c3bc0c09.chunk.css.map": "/beezontop/react-shopping/static/css/main.c3bc0c09.chunk.css.map",
+    "static/css/main.1bb7b9c3.chunk.css.map": "/beezontop/react-shopping/static/css/main.1bb7b9c3.chunk.css.map",
     "static/js/2.83bc9c7a.chunk.js.LICENSE.txt": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.305e49d2.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.83bc9c7a.chunk.js",
-    "static/css/main.c3bc0c09.chunk.css",
+    "static/css/main.1bb7b9c3.chunk.css",
     "static/js/main.89d9a7c6.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/beezontop/react-shopping/precache-manifest.aebb19a0c4b1240746518e0af0c0baa6.js"
+  "/beezontop/react-shopping/precache-manifest.d59b978f9747112b1b3de716b4721344.js"
 );
 
 self.addEventListener('message', (event) => {
