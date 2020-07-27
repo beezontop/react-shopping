@@ -1,0 +1,33 @@
+.products,
+.product-img {
+    display        : flex;
+    justify-content: center;
+    flex-wrap      : wrap;
+
+    img {
+        // max-height: 300px;
+        // max-width: 300px;
+        height: 300px;
+        width : 300px;
+    }
+}
+
+
+.product-list {
+    &>li {
+        border:1px solid #eee;
+        height:380px;
+        margin-bottom:20px;
+    }
+
+    img {
+        width : 200px;
+        height: 200px;
+    }
+}
+
+.addCart-btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
