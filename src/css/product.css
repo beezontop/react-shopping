@@ -18,6 +18,22 @@
   width: 200px;
   height: 200px;
 }
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+}
+.pd-title {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  align-self: flex-start;
+}
+.pd-price {
+  margin: 0;
+  align-self: flex-start;
+}
 .addCart-btn {
   position: absolute;
   bottom: 0;
