@@ -16,7 +16,7 @@ function App() {
   const [cartList, setCartList] = useState([]);
 
   useEffect(() => {
-    fetch(`/products`)
+    fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
       .then(
         (data) => {
@@ -54,7 +54,8 @@ function App() {
 
       //將 newItem 價格加至 total
       let newTotal = total + newItem.sum;
-      setTotal(newTotal);
+      newTotal = newTotal.toFixed(2);
+      setTotal(+newTotal);
     }
   };
 
@@ -114,8 +115,8 @@ function App() {
 
   const item = data.map((i) => {
     return (
-      <li className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div className="product-info">
+      <li className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={i.id}>
+        <div className="product-info" key={i.id}>
           <Product data={i} />
           <AddtoCart onClick={handleAddtoCart} id={i.id} />
         </div>
@@ -150,7 +151,9 @@ function App() {
             total={total}
             doDelete={handleDelete}
           />
-          <ul className="product-list row">{item}</ul>
+          <ul className="product-list row" key={data.id}>
+            {item}
+          </ul>
         </div>
       </React.Fragment>
     );

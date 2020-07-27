@@ -8,8 +8,9 @@ const Cart = (props) => {
   const handleShow = () => setShow(true);
 
   const showItem = (length) => {
+    
     const item = props.cartCount.map((i) => (
-      <Row>
+      <Row key={i.id}>
         <Col xs={12}>
           <div key={i.id}>
             <div className="cart-item">
@@ -28,15 +29,15 @@ const Cart = (props) => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
                     />
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"
                     />
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"
                     />
                   </svg>
@@ -105,7 +106,7 @@ const Cart = (props) => {
       </Row>
     ));
     const total = (
-      <div className="total-price d-flex align-self-center justify-content-end">
+      <div className="total-price d-flex align-self-center justify-content-end" key={props.total}>
         <span className="total-title">Total:</span>
         <span className="price total-price">{props.total}</span>
       </div>
@@ -142,7 +143,7 @@ const Cart = (props) => {
         <span className="m-2">{props.cartCount.length}</span>
       </Button>
 
-      <div className="clearfix">
+      <div className="clearfix" key={props.id}>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Shopping Cart</Modal.Title>

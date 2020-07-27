@@ -1,6 +1,5 @@
 {
   "homepage": "https://beezontop.github.io/react-shopping/",
-  "proxy":"https://fakestoreapi.com",
   "name": "shopping-cart",
   "version": "0.1.0",
   "private": true,

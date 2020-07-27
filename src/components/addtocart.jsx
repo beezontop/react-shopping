@@ -3,7 +3,7 @@ import { ButtonGroup, Button } from "react-bootstrap";
 
 const AddtoCart = (props) => {
   return (
-    <div className="addCart-btn">
+    <div className="addCart-btn" key={props.id}>
       <ButtonGroup size="sm">
         <Button onClick={props.onClick} id={props.id} className="black-btn">
           Add to cart
