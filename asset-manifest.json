@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/beezontop/react-shopping/static/css/main.1bb7b9c3.chunk.css",
-    "main.js": "/beezontop/react-shopping/static/js/main.89d9a7c6.chunk.js",
-    "main.js.map": "/beezontop/react-shopping/static/js/main.89d9a7c6.chunk.js.map",
-    "runtime-main.js": "/beezontop/react-shopping/static/js/runtime-main.305e49d2.js",
-    "runtime-main.js.map": "/beezontop/react-shopping/static/js/runtime-main.305e49d2.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/beezontop/react-shopping/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.83bc9c7a.chunk.js": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js",
-    "static/js/2.83bc9c7a.chunk.js.map": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js.map",
-    "index.html": "/beezontop/react-shopping/index.html",
-    "precache-manifest.d59b978f9747112b1b3de716b4721344.js": "/beezontop/react-shopping/precache-manifest.d59b978f9747112b1b3de716b4721344.js",
-    "service-worker.js": "/beezontop/react-shopping/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/beezontop/react-shopping/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1bb7b9c3.chunk.css.map": "/beezontop/react-shopping/static/css/main.1bb7b9c3.chunk.css.map",
-    "static/js/2.83bc9c7a.chunk.js.LICENSE.txt": "/beezontop/react-shopping/static/js/2.83bc9c7a.chunk.js.LICENSE.txt"
+    "main.css": "/react-shopping/static/css/main.1bb7b9c3.chunk.css",
+    "main.js": "/react-shopping/static/js/main.4db92621.chunk.js",
+    "main.js.map": "/react-shopping/static/js/main.4db92621.chunk.js.map",
+    "runtime-main.js": "/react-shopping/static/js/runtime-main.921e2c0a.js",
+    "runtime-main.js.map": "/react-shopping/static/js/runtime-main.921e2c0a.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/react-shopping/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.83bc9c7a.chunk.js": "/react-shopping/static/js/2.83bc9c7a.chunk.js",
+    "static/js/2.83bc9c7a.chunk.js.map": "/react-shopping/static/js/2.83bc9c7a.chunk.js.map",
+    "index.html": "/react-shopping/index.html",
+    "precache-manifest.7802973c55b56d26d6fc9feed78451e7.js": "/react-shopping/precache-manifest.7802973c55b56d26d6fc9feed78451e7.js",
+    "service-worker.js": "/react-shopping/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/react-shopping/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.1bb7b9c3.chunk.css.map": "/react-shopping/static/css/main.1bb7b9c3.chunk.css.map",
+    "static/js/2.83bc9c7a.chunk.js.LICENSE.txt": "/react-shopping/static/js/2.83bc9c7a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.305e49d2.js",
+    "static/js/runtime-main.921e2c0a.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.83bc9c7a.chunk.js",
     "static/css/main.1bb7b9c3.chunk.css",
-    "static/js/main.89d9a7c6.chunk.js"
+    "static/js/main.4db92621.chunk.js"
   ]
 }
