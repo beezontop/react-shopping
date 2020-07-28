@@ -8,7 +8,6 @@ const Cart = (props) => {
   const handleShow = () => setShow(true);
 
   const showItem = (length) => {
-    
     const item = props.cartCount.map((i) => (
       <Row key={i.id}>
         <Col xs={12}>
@@ -46,7 +45,8 @@ const Cart = (props) => {
               <div className="row">
                 <div className="col-6">
                   <img src={i.data.image} alt="product-pic" />
-                  <p>{i.data.title}</p>
+                  <p className="pd-title">{i.data.title}</p>
+                  <p className="pd-des">{i.data.description}</p>
                   <p>
                     <span className="dollar-sign">$</span>
                     <span className="price">{i.data.price}</span>
@@ -106,7 +106,10 @@ const Cart = (props) => {
       </Row>
     ));
     const total = (
-      <div className="total-price d-flex align-self-center justify-content-end" key={props.total}>
+      <div
+        className="total-price d-flex align-self-center justify-content-end"
+        key={props.total}
+      >
         <span className="total-title">Total:</span>
         <span className="price total-price">{props.total}</span>
       </div>

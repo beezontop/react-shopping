@@ -8,6 +8,7 @@ import Cart from "./components/cart";
 import AddtoCart from "./components/addtocart";
 import { Spinner } from "react-bootstrap";
 
+
 function App() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsloaded] = useState(false);
@@ -16,12 +17,13 @@ function App() {
   const [cartList, setCartList] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
+    fetch("https://my-json-server.typicode.com/beezontop/fakeproduct/data")
       .then((res) => res.json())
       .then(
         (data) => {
           setIsloaded(true);
           setData(data);
+          console.log(data);
         },
         (error) => {
           setIsloaded(true);
@@ -158,5 +160,5 @@ function App() {
       </React.Fragment>
     );
   }
-}
+} 
 export default App;

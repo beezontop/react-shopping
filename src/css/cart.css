@@ -5,7 +5,7 @@
   border-radius: 4px;
 }
 .cart-item img {
-  width: 50px;
+  width: 100%;
   height: auto;
 }
 .cart-btn {
